@@ -104,3 +104,13 @@ p:hover {
 p {
     transition: all 0.5s;
 }
+
+@media (max-width: 500px) {
+    button {
+        width: 450px;
+    }
+    div {
+        width: 175px;
+        font-size: 30px;
+    }
+}
