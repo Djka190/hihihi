@@ -1,0 +1,106 @@
+body {
+    background-color: beige;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Fuzzy Bubbles", sans-serif;
+}
+
+div {
+    display: flex;
+    height: 100px;
+    background-color: orange;
+    color: beige;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0px 0px 30px red;
+    font-size: 50px;
+    width: 250px;
+    animation: animacja 1s forwards;
+    box-shadow: 2px 2px 15px black;
+    border-radius: 25px;
+    
+}
+
+@keyframes animacja {
+    0% {
+        scale: 0.1;
+    }
+    45% {
+        scale: 2.2;
+    }
+    100% {
+        scale: 2;
+    }
+}
+
+button {
+    display: flex;
+    height: 150px;
+    background-color: aqua;
+    color: beige;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0px 0px 30px blue;
+    font-size: 50px;
+    width: 550px;
+    box-shadow: 2px 2px 15px black;
+    border-radius: 25px;
+    transition: all 0.5s;
+    border: none;
+}
+
+button:hover {
+    scale: 1.2;
+    animation: kolorki 2s infinite ;
+}
+
+@keyframes kolorki {
+    0% {
+        box-shadow: 2px 2px 15px red;
+    }
+    20% {
+        box-shadow: 2px 2px 15px yellow;
+    }
+    40% {
+        box-shadow: 2px 2px 15px green;
+    }
+    60% {
+        box-shadow: 2px 2px 15px blue;
+    }
+    80% {
+        box-shadow: 2px 2px 15px indigo;
+    }
+    100% {
+        box-shadow: 2px 2px 15px violet;
+    }
+}
+
+/* Niech ten text-shadow to się tak na kolorowo mieni */
+
+/* translator na chiński */
+
+nav {
+    position: fixed;
+    display: flex;
+    top: 5px;
+    right: 5px;
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    color: black;
+    text-shadow: 0px 0px 10px gray;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+
+p:hover {
+    scale: 1.2;
+    color: white;
+}
+
+p {
+    transition: all 0.5s;
+}
