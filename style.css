@@ -15,8 +15,8 @@ div {
     justify-content: center;
     align-items: center;
     text-shadow: 0px 0px 30px red;
-    font-size: 50px;
-    width: 250px;
+    font-size: 30px;
+    width: 175px;
     animation: animacja 1s forwards;
     box-shadow: 2px 2px 15px black;
     border-radius: 25px;
@@ -44,7 +44,7 @@ button {
     align-items: center;
     text-shadow: 0px 0px 30px blue;
     font-size: 50px;
-    width: 550px;
+    width: 450px;
     box-shadow: 2px 2px 15px black;
     border-radius: 25px;
     transition: all 0.5s;
@@ -105,7 +105,7 @@ p {
     transition: all 0.5s;
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
     button {
         width: 450px;
     }
@@ -114,3 +114,4 @@ p {
         font-size: 30px;
     }
 }
+*/
